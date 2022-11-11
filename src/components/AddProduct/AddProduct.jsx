@@ -32,7 +32,7 @@ const AddProduct = ({ active, onClose }) => {
       comments: [],
     };
     const addProduct = async () => {
-      const response = await axios.post('http://localhost:3001/products', {
+      await axios.post('http://localhost:3001/products', {
         ...productBody,
       });
     };

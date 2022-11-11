@@ -27,13 +27,10 @@ const EditProduct = ({ active, onClose, product }) => {
     };
 
     const editProduct = async () => {
-      const response = await axios.patch(
-        `http://localhost:3001/products/${product.id}`,
-        {
-          ...product,
-          ...editBody,
-        }
-      );
+      await axios.patch(`http://localhost:3001/products/${product.id}`, {
+        ...product,
+        ...editBody,
+      });
     };
     editProduct();
     window.location.reload();

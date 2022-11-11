@@ -23,7 +23,7 @@ const ProductInfo = () => {
       setProduct(response.data);
     };
     getProduct();
-  }, []);
+  }, [id]);
 
   if (!product) {
     return (
@@ -36,7 +36,7 @@ const ProductInfo = () => {
   return (
     <div className={styles.productInfo}>
       <div className={styles.product}>
-        <img src={product.imageUrl} alt='product image' />
+        <img src={product.imageUrl} alt='product' />
         <div className={styles.info}>
           <div className={styles.header}>
             <h1>{product.name}</h1>
