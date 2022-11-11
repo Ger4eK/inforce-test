@@ -18,6 +18,7 @@ const ProductInfo = () => {
   };
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     const getProduct = async () => {
       const response = await axios.get(`http://localhost:3001/products/${id}`);
       setProduct(response.data);
