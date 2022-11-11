@@ -1,0 +1,186 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "imageUrl": "https://media.istockphoto.com/id/1130455697/vector/sketch-hands-with-the-phone-isolated-on-a-white-background-vector-illustration.jpg?s=612x612&w=0&k=20&c=7FdIbQi75cfWtBmhaGhQIrWq6KZlgYl7u6CHWXwl8Tw=",
+      "name": "Phone",
+      "count": 4,
+      "size": {
+        "width": 70,
+        "height": 160
+      },
+      "weight": "240g",
+      "comments": [
+        {
+          "id": 3,
+          "productId": 1,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        },
+        {
+          "id": 43,
+          "productId": 1,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://media.istockphoto.com/id/1214652211/vector/chair-and-table-furniture-drawing.jpg?s=612x612&w=is&k=20&c=jEcm9swSo7zUm_SYYVr_aVf0DKOc4ci5HF6sT86vwyk=",
+      "name": "Table",
+      "count": 2,
+      "size": {
+        "width": 2000,
+        "height": 1500
+      },
+      "weight": "10000g",
+      "comments": [
+        {
+          "id": 17,
+          "productId": 2,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        },
+        {
+          "id": 5,
+          "productId": 2,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://media.istockphoto.com/illustrations/woman-standing-next-to-fridge-illustration-id132072516?k=20&m=132072516&s=612x612&w=0&h=1VNVUEA3JHlGNgLcEu9wxQ63fX1QHDKi4vMvIwd3WJI=",
+      "name": "Fridge",
+      "count": 7,
+      "size": {
+        "width": 1000,
+        "height": 2000
+      },
+      "weight": "40000g",
+      "comments": [
+        {
+          "id": 85522955,
+          "productId": "3",
+          "description": "wefewfewf",
+          "date": "22:14 10.11.2022"
+        },
+        {
+          "id": 80872978,
+          "productId": "3",
+          "description": "Пваівіац",
+          "date": "22:14 10.11.2022"
+        },
+        {
+          "id": 79472435,
+          "productId": "3",
+          "description": "Comment!",
+          "date": "0:8 11.11.2022"
+        },
+        {
+          "id": 88350758,
+          "productId": "3",
+          "description": "rgreg",
+          "date": "0:9 11.11.2022"
+        },
+        {
+          "id": 16370429,
+          "productId": "3",
+          "description": "asd",
+          "date": "0:10 11.11.2022"
+        }
+      ],
+      "productId": "3",
+      "description": "йцуауцауца",
+      "date": "22:11 10.11.2022"
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://img.freepik.com/premium-vector/hand-drawn-headphones-sketch-music-vector-illustration_231873-6028.jpg?w=2000",
+      "name": "Headphones",
+      "count": 9,
+      "size": {
+        "width": 200,
+        "height": 700
+      },
+      "weight": "400g",
+      "comments": [
+        {
+          "id": 14,
+          "productId": 4,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        },
+        {
+          "id": 51,
+          "productId": 4,
+          "description": "What a nice product!",
+          "date": "14:00 22.08.2021"
+        },
+        {
+          "id": 25276917,
+          "productId": 4,
+          "description": "Ago djdwd kdkdsds ;l asddd dsdasdasd hfowhfowhf[owh hfwhfwihfiwhf ihfwihfwihfiwhf hfwhfwhfhwfhwh fhf",
+          "date": "9:39 11.11.2022"
+        }
+      ]
+    },
+    {
+      "id": 40118921,
+      "name": "Fridge",
+      "imageUrl": "https://media.istockphoto.com/id/1188193895/vector/sketch-illustration-of-retro-refrigerator-with-groceries.jpg?s=612x612&w=0&k=20&c=lMV8Ctcy3UEIrGYEzxqhDoMhax9ahf46w9GuCKbQSp0=",
+      "count": 10,
+      "size": {
+        "width": "1500",
+        "height": "2000"
+      },
+      "weight": "50",
+      "comments": []
+    },
+    {
+      "id": 24967588,
+      "name": "Pen",
+      "imageUrl": "https://i.pinimg.com/600x315/d8/21/b9/d821b9f65cd75fe98ffdcca2e1791346.jpg",
+      "count": 5,
+      "size": {
+        "width": "2",
+        "height": "15"
+      },
+      "weight": "15",
+      "comments": []
+    },
+    {
+      "id": 20915291,
+      "name": "Tesst",
+      "imageUrl": "https://thumbs.dreamstime.com/b/vintage-clipart-man-scratching-his-head-questioning-confused-hi-quality-image-bald-questions-as-retro-great-177951981.jpg",
+      "count": 3,
+      "size": {
+        "width": "3",
+        "height": "3"
+      },
+      "weight": "3",
+      "comments": []
+    },
+    {
+      "id": 57036679,
+      "name": "Ewfewfw grege fefefe",
+      "imageUrl": "https://media.istockphoto.com/id/1188193895/vector/sketch-illustration-of-retro-refrigerator-with-groceries.jpg?s=612x612&w=0&k=20&c=lMV8Ctcy3UEIrGYEzxqhDoMhax9ahf46w9GuCKbQSp0=",
+      "count": 2,
+      "size": {
+        "width": "2",
+        "height": "2"
+      },
+      "weight": "2",
+      "comments": [
+        {
+          "id": 15791029,
+          "productId": 57036679,
+          "description": "qwqwqw",
+          "date": "10:18 11.11.2022"
+        }
+      ]
+    }
+  ]
+}

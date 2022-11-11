@@ -1,0 +1,88 @@
+.product{
+   display: flex;
+   flex-direction: column;
+   border: 2px solid black;
+   border-radius: 26px;
+   width: 100%;
+   max-width: 500px;
+   padding: 25px 25px;
+   transition-duration: .35s;
+   transition-property: transform;
+   -webkit-tap-highlight-color: rgba(0,0,0,0);
+   transform: translateZ(0);
+   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+   &:hover{
+      transform: scale(0.95);
+   }
+
+   .info{
+      display: flex;
+      gap: 50px;
+      
+      align-items: center;
+      justify-content: space-between;
+      div{
+         margin: 0 auto;
+         h1{
+            margin-bottom: 10px;
+         }
+      }
+      img{
+         width: 120px;
+         height: 120px;
+         border-radius: 26px;
+      }
+   }
+   button {
+      
+      align-self: center;
+   }
+   //.confirme {
+   //   //display: flex;
+      
+   //}
+   //.actions{
+   //   display: flex;
+   //}
+}
+
+.confirme{
+   h1{
+      text-align: center;
+   }
+}
+.actions{
+   margin-top: 20px;
+   gap: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   img{
+      height: 150px;
+      width: 150px;
+   }
+}
+
+
+@media (max-width: 650px) {
+  .product{
+   .info{
+      margin-bottom: 20px;
+      gap: 20px;
+      flex-direction: column;
+   }
+  }
+}
+@media (max-width: 500px) {
+   .actions{
+     
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img{
+         height: 150px;
+         width: 150px;
+      }
+   }
+}
+

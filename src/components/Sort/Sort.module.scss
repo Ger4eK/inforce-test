@@ -1,0 +1,52 @@
+.sort {
+   position: relative;
+   &__label{
+   display: flex;
+   align-items: center;
+   img {
+      width: 20px;
+      height: 20px;
+      transform: rotate(180deg);
+      margin-right: 5px;
+   }
+   b{
+      margin-right: 10px;
+   }
+   span {
+      border-bottom: 1px dashed #a3b39f;
+      color: #a3b39f;
+      cursor: pointer;
+   }
+   }
+}
+.popup{
+   position: absolute;
+   z-index: 1;
+   right: -96;
+   margin-top: 15px;
+   background: #ffffff;
+   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+   border-radius: 10px;
+   overflow: hidden;
+   padding: 10px 0;
+   width: 265px;
+}
+
+ul {
+   overflow: hidden;
+   li {
+     padding: 12px 20px;
+     cursor: pointer;
+
+     &.active,
+     &:hover {
+       background: hsl(118, 11%, 95%);
+      
+     }
+
+     &.active {
+       font-weight: bold;
+       color: #a3b39f;
+     }
+   }
+ }
